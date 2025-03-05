@@ -7,7 +7,7 @@ body {
     margin: 50px;
 }
 
-Logo Container
+/* Logo Container */
 .logo-container {
     display: flex;
     justify-content: center;
@@ -81,4 +81,23 @@ button:hover {
 
 .reset:hover {
     background: #d63030;
+}
+
+/* Navigation */
+.nav {
+    margin-top: 20px;
+}
+
+.nav a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.nav a:hover {
+    background: rgba(255, 255, 255, 0.4);
 }
