@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naeem vs Gio - Score Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Naeem vs Gio - Letterleague Score</h1>
+    <div class="container">
+        <div class="player">
+            <h2>Naeem</h2>
+            <div class="score" id="naeem-score">0</div>
+            <button onclick="increaseScore('naeem')">+1 Win</button>
+        </div>
+        <div class="player">
+            <h2>Gio</h2>
+            <div class="score" id="gio-score">0</div>
+            <button onclick="increaseScore('gio')">+1 Win</button>
+        </div>
+    </div>
+
+    <button class="reset" onclick="resetScores()">Reset Scores</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
