@@ -73,6 +73,25 @@ button:hover {
     background: #45a049;
 }
 
+/* Trio Page Button */
+.trio-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px 15px;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+}
+
+.trio-btn:hover {
+    background: rgba(255, 255, 255, 0.4);
+}
+
+
 /* Reset Button */
 .reset {
     background: #ff4747;
